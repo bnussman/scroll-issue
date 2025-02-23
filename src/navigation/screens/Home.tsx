@@ -5,11 +5,9 @@ export function Home() {
   return (
     <View style={styles.container}>
       <Text>Home Screen</Text>
-      <Text>Open up 'src/App.tsx' to start working on your app!</Text>
-      <Button screen="Profile" params={{ user: 'jane' }}>
-        Go to Profile
+      <Button screen="List">
+        Go to Broken FlatList
       </Button>
-      <Button screen="Settings">Go to Settings</Button>
     </View>
   );
 }
